@@ -1,3 +1,17 @@
 body {
-  background-color: lightblue;
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: rgb(124, 176, 193);
+}
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 500px;
+  background-color: white;
+}
+.left {
+  background-color: red;
+}
+.right {
+  background-color: black;
 }
